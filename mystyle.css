@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+
+  /*----------------------------------------------
+
+Nav Bar
+
+-------------------------------------------------*/
+header{
+    margin: -575px auto;
+    text-align: center;
+   
+   }
+   
+   header nav li{
+     display: inline-block;
+     margin: 20px auto;
+     color: rgb(255, 255, 255);
+   }
+   
+   header nav a{
+     padding: 15px 60px;
+     text-transform: uppercase;
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+     border-top: 2px solid rgb(255, 255, 255);
+     border-bottom: 2px solid rgb(255, 255, 255);
+     margin: -5px;
+     font-weight: bold;
+   }
+   
+   header nav a:visited {
+     color: #8d7fdd;
+   }
+   
+   header nav a:hover {
+     color: #97636D;
+   }
+   
+   header nav a:active {
+     color: #87ce6b;
+   }
+
+
+    
+
+   /*----------------------------------------------
+
+Index Body
+
+-------------------------------------------------*/
+
+p{
+    width: 500px;
+}
+
+h2{
+    margin: 1100px 0px 0px 345px;
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    
+}
+
+
+.food{
+    padding: 20px ;
+}
+.deliciousfood{
+    padding: 20px ;
+    margin: 10px 0px 0px 275px;
+    max-width: fit-content;
+}
+
+
+figcaption{
+    padding: 10px;
+    width: 35%;
+}
+
+.about{
+    float: right;
+    margin: -275px 60px 0 5px ;
+}
+
+
+   /*----------------------------------------------
+
+Savory
+
+-------------------------------------------------*/
+
+.enchilada {
+    float: left;
+   margin: auto -700px 0;
+   max-width: fit-content;
+}
+
+   /*----------------------------------------------
+
+Sweets
+
+-------------------------------------------------*/
+
+.desserts {
+    float: left;
+   margin: auto -700px 0;
+   max-width: fit-content;
+
+}
+
+
+
+
+   /*----------------------------------------------
+
+Article
+
+-------------------------------------------------*/
+
+article {
+    overflow: hidden;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #E7EBED;
+}
+
+article .title {
+    padding: 7px 0px 0px 0px;
+    letter-spacing: -1px;
+    margin: 1100px 300px 0 800px;
+}
+
+article .title a {
+    border: none;
+    text-decoration: none;
+    color: #222222;
+}
+
+article .meta {
+    margin: 20px 0 0 800px;
+    padding: 10px 0px 0px 0px;
+    text-align: left;
+    font-size: 1.0em;
+    font-weight: 300;
+}
+
+article .entry {
+    margin: -25px 300px 0 800px;
+}
+
+.links {
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.more {
+    display: block;
+    float: left;
+    width: 88px;
+    padding: 5px 5px;
+    margin-right: 10px;
+    background: #9066d3;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+.comments {
+    display: block;
+    float: left;
+    width: 88px;
+    padding: 5px 5px 24px 5px;
+    background: #9066d3;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+aside {
+    width: 40%;
+    padding-left: 15px;
+    margin: -420px 0 25px 15px;
+    float: left;
+    font-style: italic;
+    background-color: lightgray;
+  }
+
+  @media screen and (min-width: 320px ) {
+    .aside {
+        width: 25%;
+}
+    
+}
+
+article p{
+    padding-top: 10px;
+}
+
+
+
+   /*----------------------------------------------
+
+Contact
+
+-------------------------------------------------*/
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 1100px 0 0 0;
+}
+
+
+   /*----------------------------------------------
+
+Footer
+
+-------------------------------------------------*/
+footer{
+    background-color: black;
+  }
+    footer nav li{
+      display: inline-block;
+      margin: 20px 70px 0 80px;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      background-color: black;
+    }
+  
+    footer nav a{
+      padding: 15px 60px;
+      text-transform: uppercase;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      margin: -5px;
+      font-weight: bold;
+    }
+  
+    footer nav a:visited {
+        color: #8d7fdd;
+    }
+  
+    footer nav a:hover {
+        color: #97636D;
+    }
+  
+    footer nav a:active {
+        color: #87ce6b;
+    }
