@@ -9,6 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+  }
+  window.addEventListener('load', addDarkmodeWidget);
+</script>
 </head>
 <body>
     
@@ -21,10 +28,14 @@
           <ul>
             <li><a href="/index.html">HOME</a></li>
             <li><a href="/sweets.html">SWEETS</a></li>
-            <li><a href="/savory.html" target="_blank">SAVORY</a></li>
+            <li><a href="/savory.html">SAVORY</a></li>
             <li><a href="/contact.html">CONTACT</a></li>
           </ul>
         </nav>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
       </header>
 
       <section>
@@ -58,6 +69,6 @@
           <p>@2021 Kimberly Mojica</P>
         </footer>
       </section>
- 
+
 </body>
 </html>

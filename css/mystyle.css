@@ -30,6 +30,7 @@ header{
      border-bottom: 2px solid rgb(255, 255, 255);
      margin: -5px;
      font-weight: bold;
+     overflow: hidden;
    }
    
    header nav a:visited {
@@ -45,8 +46,14 @@ header{
    }
 
 
-    
 
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  header nav a {
+    float: none;
+    width: 100%;
+  }
+}
    /*----------------------------------------------
 
 Index Body
@@ -274,3 +281,5 @@ footer{
     footer nav a:active {
         color: #87ce6b;
     }
+
+  
