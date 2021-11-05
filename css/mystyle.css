@@ -9,7 +9,7 @@
 Nav Bar
 
 -------------------------------------------------*/
-header{
+  header{
     margin: -575px auto;
     text-align: center;
    
@@ -19,6 +19,7 @@ header{
      display: inline-block;
      margin: 20px auto;
      color: rgb(255, 255, 255);
+     z-index: 5;
    }
    
    header nav a{
@@ -45,15 +46,6 @@ header{
      color: #87ce6b;
    }
 
-
-
-/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  header nav a {
-    float: none;
-    width: 100%;
-  }
-}
    /*----------------------------------------------
 
 Index Body
@@ -281,5 +273,3 @@ footer{
     footer nav a:active {
         color: #87ce6b;
     }
-
-  
