@@ -9,13 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-<script>
-  function addDarkmodeWidget() {
-    new Darkmode().showWidget();
-  }
-  window.addEventListener('load', addDarkmodeWidget);
-</script>
+<script src="js/medium-editor.js"></script>
+<link rel="stylesheet" href="css/medium-editor.css">
+<link rel="stylesheet" href="css/themes/default.css">
 
 </head>
 <body>
@@ -33,8 +29,16 @@
             <li><a href="/contact.html">CONTACT</a></li>
           </ul>
         </nav>
-
+        </header>
+    
       <section>
+
+        <div id="pic">
+          <img src="images/logo.tif" alt="Cooking With Kim Logo" width="300" height="300"> 
+          </div>
+
+  
+
           <div class="food">
             <h2>Delicious Food Awaits...</h2>
             <div class="deliciousfood">
@@ -65,5 +69,10 @@
           <p>@2021 Kimberly Mojica</P>
         </footer>
       </section>
+      
+      <div class="editable"></div>
+
+      <script>var editor = new MediumEditor('.editable');</script>
+
 </body>
 </html>
